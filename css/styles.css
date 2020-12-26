@@ -158,8 +158,9 @@ sup {
   top: -0.5em;
 }
 
+/* change from orange to green */
 a {
-  color: #bd5d38;
+  color: #18631d;
   text-decoration: none;
   background-color: transparent;
 }
@@ -10086,8 +10087,10 @@ p.lead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
+
+/* change from orange to green */
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #18631d;
 }
 
 .dev-icons {
