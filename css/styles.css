@@ -163,8 +163,10 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
+/* change from orange to green */
 a:hover {
-  color: #824027;
+  color: #18631d;
   text-decoration: underline;
 }
 
