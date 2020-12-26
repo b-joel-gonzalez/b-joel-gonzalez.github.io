@@ -6076,7 +6076,7 @@ a.close.disabled {
 
 /* changed from orange to green */
 .bg-primary {
-  background-color: #1b9c44 !important;
+  background-color: #18631d !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9779,12 +9779,12 @@ button.bg-dark:focus {
 
 /* changed from orange to green */
 .text-primary {
-  color: #1b9c44 !important;
+  color: #18631d !important;
 }
 
 /* changed from orange to green */
 a.text-primary:hover, a.text-primary:focus {
-  color: #1b9c44 !important;
+  color: #18631d !important;
 }
 
 .text-secondary {
