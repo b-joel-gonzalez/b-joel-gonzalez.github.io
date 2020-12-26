@@ -2884,10 +2884,13 @@ fieldset:disabled a.btn {
   color: #bd5d38;
   text-decoration: none;
 }
+
+/* changed from orange to green */
 .btn-link:hover {
-  color: #824027;
+  color: #18631d;
   text-decoration: underline;
 }
+
 .btn-link:focus, .btn-link.focus {
   text-decoration: underline;
 }
