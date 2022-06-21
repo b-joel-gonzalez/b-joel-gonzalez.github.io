@@ -161,7 +161,11 @@
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
-                    <p>I've had the great opportunity to take a number of fascinating courses in my time at UPenn, including Computer Architecture, Embedded Systems, Mechatronic Systems, Laboratory Electronics, Digital Circuits, Electromagnetism, and more. Here are some of my favorite projects from my coursework...</p>
+                    <p>I've had the great opportunity to take a number of fascinating courses in my time at UPenn and CMU, including Computer Architecture, Embedded Systems, Mechatronic Systems, Laboratory Electronics, Digital Circuits, Electromagnetism, and more.</p>
+                    
+                    <p>Some of my favorite projects include: designing a pipelined superscalar CPU in Verilog; designing a 16-bit ripple-carry adder, an 8x8 SRAM, a transimpedance amplifier, a two-stage op-amp, and an RF transceiver (all at the MOSFET-level using SPICE and Cadence); and designing an AM radio receiver in the lab using discrete electronic components.</p>
+                    
+                    <p>Although I had varying levels of success in all these projects, I still learned a huge amount from them. Below, I discuss a few more fun projects in detail...</p>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -207,62 +211,6 @@
                             <p> Our car struggled to move on some surfaces due to friction resulting from the mechanical design, but it was a great engineering design task to prepare for the final project. Here is my team's <a href="pdfs\RC_Racecar_Report.pdf">final report</a>. </p>
                         </div>
                     <div class="flex-shrink-0"><span class="text-primary">Fall 2019</span></div>
-                    </div>
-
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Audio Filter Lightshow</h3>
-                            <div class="subheading mb-3">PHYS364: Laboratory Electronics</div>
-                            <p>I worked in a team of two to develop a system to filter and separate out treble and bass from an audio signal, using the filtered outputs to light up respective LED strips. We implemented the high-pass/low-pass filtering in hardware, fed the filtered inputs into an Arduino to detect whether there was treble or bass, and then used the Arduino to drive the appropriate BJT to light up the LEDs. </p>
-
-                            <p> This was a project that we did for extra credit on top of the regular labs at the end of the course, and was a creative finish to a wonderful course. Here is my team's <a href="pdfs\Digital_Audio_Filter_Report.pdf">final report</a>. </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2019</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">AM Radio Receiver</h3>
-                            <div class="subheading mb-3">PHYS364: Laboratory Electronics</div>
-                            <p>I worked in a team of two to develop a basic AM radio receiver, which could be tuned to listen in on any local AM radio station. There were several steps in building the system, from amplifying to bandpass filtering to half-wave rectification. This was one of the major labs in the course that served to tie together several concepts from earlier labs. </p>
-
-                            <p> It was very satisfying to put all the pieces together - I'll never forget when we were actually able to pick up and play a local radio station on our speaker, using something we built by hand! Unfortunately, I'm unable to publically share my report for this project in the interest of future students taking the course. But if you're curious, <a href="pdfs\AM_Radio_Receiver.pdf">here</a> is the course's lab manual. </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2019</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">SRAM Design</h3>
-                            <div class="subheading mb-3">ESE370: Digital Circuits</div>
-                            <p>I worked in a team of two to develop an SRAM array at the MOSFET-level. The SRAM array was able to hold 16 4-bit data elements and worked as a FIFO queue. The FIFO queue could take in signals for enqueue or dequeue which would either insert a new 4-bit data element (if the array wasn't full) or read out the next 4-bit data element (if the array wasn't empty) respectively. We had to design the SRAM system in two parts: the actual array with 16x4 SRAM cells (6 MOSFETs each), and the control logic that took in the clock/enqueue/dequeue signals and then directed the system as needed. We also aimed to optimize on area and energy used by the system. </p>
-
-                            <p> A very challenging but engaging project in digital design, built using the Electric EDA and tested using the Ngspice simulator. Unfortunately, I'm unable to publically share my report for this project in the interest of future students taking the course. But if you're curious, <a href="pdfs\SRAM_Design.pdf">here</a> is the course's lab manual. </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Fall 2019</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Ripple-Carry Adder</h3>
-                            <div class="subheading mb-3">ESE370: Digital Circuits</div>
-                            <p>I developed an 8-bit ripple-carry adder (RCA) at the MOSFET-level. I composed the RCA from the bottom-up, constructing CMOS logic gates to build a 1-bit full-adder which I then cascaded together for an 8-bit adder. The goal of the project was to optimize for delay - to achieve this metric, we were allowed to toggle several parameters including gate structure, gate type, MOSFET sizes, logic discipline, and supply voltage. </p>
-
-                            <p> Using Electric and Ngspice, this project tied together various concepts about optimization in digital design that we discussed in the course. Unfortunately, I'm unable to publically share my report for this project in the interest of future students taking the course. But if you're curious, <a href="pdfs\Ripple_Carry_Adder.pdf">here</a> is the course's lab manual. </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Fall 2019</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Pipelined/Superscalar CPU</h3>
-                            <div class="subheading mb-3">CIS501: Computer Architecture</div>
-                            <p>I worked in a team of two to develop a 5-stage pipeline + 2-way superscalar processor using Verilog. We started from the very basic building blocks, writing a half-adder, then a full-adder, then a ripple-carry adder. We then improved upon this design to build a carry-lookahead adder, which we integrated into an Arithmetic Logic Unit (alongside a custom arithmetic division unit). Once we had the ALU coded, we moved onto the entire LC-4 datapath which we then enhanced with pipelining and superscalar design. </p>
-
-                            <p> It was very satisfying to build up the entire datapath from basic logic gates, and a valuable experience to work with Verilog and FPGAs. Unfortunately, I'm unable to publically share my code for this project in the interest of future students taking the course. But if you're curious, <a href="https://github.com/upenn-acg/cis501">here</a> is the course's repository, where you can see the skeleton code for all the labs. </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2019</span></div>
                     </div>
                     
                     </div>
